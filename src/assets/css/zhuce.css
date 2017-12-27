@@ -1,0 +1,147 @@
+.zhuce_box {
+    margin: 5rem auto;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 10%;
+}
+
+.zhuce_head {
+    /* height: 10rem; */
+    background: url("../images/zhuce/beijing@2x.png") left top;
+}
+
+.zhuce_bg {
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    width: 100%;
+}
+
+.telphone_box,
+.yanzheng_box {
+    width: 100%;
+}
+
+.telphone_box,
+.yanzheng_box,
+.flex-demo {
+    margin-bottom: 0.5rem;
+}
+
+.flex-demo {
+    font-size: 0.35rem;
+    color: #26a2ff;
+    
+}
+
+.yanzheng_box {
+    justify-content: space-between;
+}
+
+.yanzheng_num,
+.yanzheng_btn,
+.telphone {
+    height: 1rem;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    padding-left: 0.25rem;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.telphone {
+    width: 100%;
+}
+
+.telphone {
+    width: 60%;
+}
+
+.yanzheng_btn {
+    width: 35%;
+    border: 1px solid #26a2ff;
+    color: #26a2ff;
+    background: white;
+}
+
+.mu-checkbox-icon-checked {
+    color: #26a2ff;
+}
+
+.mu-checkbox-icon {
+    margin-right: 0.25rem;
+}
+
+.yanzheng_num {
+    width: 100%;
+}
+
+.agree_zhuce {
+    outline: none;
+    top: 0.17rem;
+}
+
+.mu-checkbox,
+.flex-demo>span {
+    height: 0.6rem;
+    line-height: 0.6rem;
+}
+
+.flex-demo>span {
+    position: relative;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    /*text-decoration: underline;*/
+}
+
+.mu-checkbox-ripple-wrapper {
+    width: 1.2rem;
+    height: 1.2rem;
+    top: -0.3rem;
+    left: -0.3rem;
+}
+
+.mu-checkbox-label {
+    color: #a7a7a7;
+}
+
+.zhuce_mask {
+    width: 80%;
+    height: 80%;
+    top: 1.0rem;
+    overflow-y: auto;
+    background: gold;
+}
+
+.denglu_btn {
+    width: 100%;
+    border-radius: 0.4rem;
+}
+
+.mu-toast {
+    position: fixed;
+    top: 1.0rem;
+    left: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0 0.6rem;
+    min-height: 1.2rem;
+    width: 100%;
+    max-width: 14.2rem;
+    border-radius: 0;
+}
+
+/**/
+

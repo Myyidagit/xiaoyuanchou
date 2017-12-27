@@ -1,0 +1,533 @@
+#xiangqing {
+    position: relative;
+}
+
+.mint-header {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #26a2ff;
+    box-sizing: border-box;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 14px;
+    height: 1.0rem;
+    line-height: 1;
+    padding: 0 0.25rem;
+    position: fixed;
+    z-index: 66666;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.headerBai {
+    width: 100%;
+    height: 1.025rem;
+}
+
+.biaoYu {
+    width: 100%;
+    background: #fff;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    font-size: 0.5rem;
+    text-indent: 0.5rem;
+    font-size: 16px;
+}
+
+.jine {
+    background: #fff;
+}
+
+.biaoYu label {
+    width: 2.5rem;
+}
+
+.biaoYu span {
+    display: inline-block;
+    width: 2.0rem;
+    text-indent: 0;
+    text-align: center;
+    background: url(../../assets/images/xiangqing/zhongchouzhuangtai@2x.png) no-repeat left center;
+    background-size: 100%;
+    margin-left: 0.375rem;
+    color: #fff;
+}
+
+.mu-dialog {
+    height: auto;
+    overflow-y: hidden;
+    text-align: center;
+    border-radius: 0.125rem;
+}
+.mu-dialog p:first-child {
+    margin-bottom: 0.25rem;
+}
+
+.mu-dialog .dialog_xian {
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+}
+.bannerImg {
+    position: relative;
+    width: 100%;
+    height: 3.75rem;
+    text-align: center;
+    border-top: 1px solid #fff;
+    background-size: 100%;
+    margin-bottom: 0.5rem;
+    background: #f5f9fe;
+}
+
+.bannerImg .target_money {
+    width: 3.25rem;
+    text-align: center;
+    color: red;
+    margin: 0.875rem auto 0;
+}
+
+.bannerImg p {
+    margin: 0 auto;
+}
+
+.biao {
+    position: absolute;
+    right: 0.125rem;
+    top: 0.125rem;
+    width: 1.625rem;
+    height: 0.625rem;
+    background: url(../../assets/images/shouye/zhongchouzhuangtai@2x.png) no-repeat;
+    background-size: 100%;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
+
+.demo-slider {
+    height: 0.5rem;
+    background: #fff;
+}
+
+.money {
+    background: #fff;
+}
+
+.money ul li p {
+    text-align: center;
+}
+
+.outer_timeLine {
+    position: relative;
+    width: 96%;
+    height: 0.15rem;
+    margin: 0.625rem auto;
+    background: #ccc;
+}
+
+.outer_timeLine .inner_timeLine {
+    height: 0.15rem;
+    background: #3993e9;
+}
+
+.outer_timeLine .time_status {
+    position: absolute;
+    top: -110%;
+    width: 1.0rem;
+    border-radius: 0.25rem;
+    height: 0.5rem;
+    background: #3993e9;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    line-height: 0.5rem;
+}
+
+.money ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0.625rem;
+    background: #fff;
+    padding-bottom: 0.25rem;
+}
+
+.money p:first-child {
+    text-indent: 0.5rem;
+}
+
+.money p:first-child span {
+    color: #ff0000;
+}
+
+.money ul li h2 {
+    color: #3993e9;
+    text-align: center;
+}
+
+.xinXi {
+    width: 100%;
+}
+
+.xinXi_tou {
+    width: 100%;
+    height: 2.0rem;
+    border: 0.025rem solid #ccc;
+    padding-top: 0.25rem;
+    background: #fff;
+}
+
+.xinXi_tou li img {
+    border-radius: 50%;
+}
+
+.xinXi_tou li {
+    float: left;
+    margin: 0.125rem 0 0 0.625rem;
+}
+
+.xinXi_tou li:nth-child(2) {
+    margin: 0.125rem 0 0 0.45rem;
+}
+
+.xinXi_tou li:nth-child(2) p {
+    /*background: red;*/
+}
+
+.xinXi_tou li:nth-child(2) p span:first-child {
+    display: inline-block;
+    width: 3.8rem;
+    overflow: hidden;
+    font-size: 0.4rem;
+    height: 0.625rem;
+}
+
+.xinXi_tou li:nth-child(2) p span:nth-child(2) {
+    display: inline-block;
+    width: 1.8rem;
+    color: #3993e9;
+    font-size: 0.25rem;
+    border: 1px solid #3993e9;
+    text-indent: 0.625rem;
+    border-radius: 0.25rem;
+    background: url(../../assets/images/xiangqing/shimingrenzhengduigou@2x.png) no-repeat left center;
+    background-size: 0.5rem;
+    margin-left: 0.25rem;
+}
+
+.xinXi_tou li:nth-child(2) span:last-child {
+    font-size: 0.35rem;
+    color: #ccc;
+}
+
+
+/*详情*/
+
+.ping_tou li:nth-child(2) p span:first-child {
+    display: inline-block;
+    color: #000;
+    margin-left: 0.25rem;
+}
+
+.ping_tou li {
+    float: left;
+    margin: 0.125rem 0 0 0.625rem;
+}
+
+.ping_tou li:nth-child(2) {
+    margin: 0.125rem 0 0 0.45rem;
+}
+
+.ping_tou li:nth-child(2) p {
+    color: #3993e9;
+}
+
+.ping_tou li:nth-child(2) p span:first-child {
+    display: inline-block;
+}
+
+.ping_tou li:nth-child(2) span:last-child {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.ping_tou .touxiang img {
+    border-radius: 50%;
+}
+
+.ping {
+    margin-top: 0.25rem;
+    width: 100%;
+    background: #fff
+}
+
+.ping .tou {
+    height: 1.25rem;
+    line-height: 1.25rem;
+    text-indent: 0.75rem;
+    background: url(../../assets/images/xiangqing/biaotiqianzhui@2x.png) no-repeat 0.375rem center;
+    background-size: 0.075rem;
+}
+
+.tou_content {
+    width: 96%;
+    background: #fff;
+    margin-left: 2%;
+}
+
+.tou_content .wenZi {
+    font-size: 14px;
+}
+
+.wenzi_outer {
+    width: 100%;
+    height: 1.25rem;
+    overflow: hidden;
+    background: #fff;
+}
+
+
+/*    .tou_content .zhanKai{
+      width: 2.0rem;
+      margin: 0.5rem auto;
+      font-size: 0.3rem;
+      background: url(../../assets/images/xiangqing/zhankaixiangqing@2x.png) no-repeat 1.375rem 0.15rem;
+      background-size: 0.375rem;
+    }*/
+
+.zhan {
+    width: 2.0rem;
+    margin: 0.5rem auto;
+    font-size: 0.3rem;
+    background: url(../../assets/images/xiangqing/zhankaixiangqing@2x.png) no-repeat 1.375rem 0.15rem;
+    background-size: 0.375rem;
+}
+
+.shou {
+    width: 2.0rem;
+    margin: 0.5rem auto;
+    font-size: 0.3rem;
+    background: url(../../assets/images/xiangqing/shouqijiantou@2x.png) no-repeat 1.375rem 0.15rem;
+    background-size: 0.375rem;
+}
+
+.shouQi {}
+
+.tou_content .myImg img {
+    width: 31%;
+    height: 2.0rem;
+    margin: 0.1rem;
+    float: left;
+}
+
+.myImg:after {
+    display: block;
+    content: '';
+    clear: both;
+    height: 0;
+}
+
+.huiFu {
+    margin-top: 0.125rem;
+    width: 73%;
+    margin-left: 23.5%;
+    background: #f5f5f5;
+}
+
+.huiFu .huiFu_p span {
+    color: #3993e9;
+}
+
+.huiFu .huiFu_p span:last-child {
+    color: #282828;
+}
+
+.huiFu .huiFu_p span:nth-child(2) {
+    color: #282828;
+}
+
+.huiFu:after {
+    display: block;
+    content: '';
+    clear: both;
+    height: 0;
+}
+
+.ping_content_detail {
+    margin-bottom: 0.5rem;
+    /*border-bottom: 1px solid red;*/
+}
+
+.ping_content_detail .ping_content_detail_xian {
+    margin-top: 0.375rem;
+    width: 100%;
+    height: 0.025rem;
+    border: 1px dashed #f5f5f5;
+}
+
+.ping_content .xinXi_tou li:nth-child(2) p span:first-child {
+    display: inline-block;
+    width: 2.5rem;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    margin-left: 0.2rem;
+}
+
+.ping_content .xinXi_tou {
+    border: none;
+}
+
+.ping_content .xinXi_tou .niCheng p {
+    color: #3993e9;
+}
+
+.ping_content .pingList {
+    width: 73%;
+    /*background: #f5f5f5;*/
+    margin-left: 23.5%;
+    /*margin-bottom: 5px;*/
+}
+
+.ping_content .xinXi_tou li:nth-child(2) span:last-child {
+    font-size: 14px;
+    color: #ccc;
+    background: none;
+}
+
+.bai {
+    height: 1.0rem;
+    width: 100%;
+}
+
+.bottombar {
+    width: 100%;
+    height: 1.25rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #ccc;
+    display: flex;
+}
+
+.bottombar img {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.bottombar figure {
+    width: 20%;
+    height: 1.875rem;
+    text-align: center;
+    padding-top: 0.125rem;
+    background: #fff;
+}
+
+.bottombar figcaption p {
+    font-size: 0.35rem;
+}
+
+.bottombar li {
+    width: 3.9rem;
+    height: 1.25rem;
+    text-align: center;
+    line-height: 1.25rem;
+    color: #fff;
+    background: #3993e9;
+}
+
+.commentInput {
+    width: 100%;
+    height: 0.9rem;
+    background: #fff;
+    position: fixed;
+    z-index: 99999;
+    bottom: 0px;
+}
+
+.commentInput input {
+    width: 80%;
+    margin: 0.075rem 0.075rem;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.commentInput span {
+    display: inline-block;
+    width: 15%;
+    background: #3993e9;
+    text-align: center;
+    color: #fff;
+    border-radius: 0.075rem;
+}
+
+.zheZhao {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99998;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.share_zhe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10000000;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+}
+
+.share_zhe img {
+    margin-left: 1.0rem;
+    height: 5.7rem;
+    width: 8.25rem;
+}
+
+.aaaa {
+    height: 7.5rem;
+    width: 100%;
+    max-width: 9.375rem;
+}
+
+.quxiao {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    bottom: 0.6rem;
+    text-align: center;
+}
+
+.mu-popup-bottom {
+    height: 7.0rem !important;
+    width: 100% !important;
+}
+
+.shareList {
+    width: 100%;
+}
+
+.shareList figure {
+    width: 31%;
+    height: 1.9rem;
+    text-align: center;
+    margin-top: 0.375rem;
+    margin-left: 0.15rem;
+    float: left;
+}
+
+.shareList figure img {
+    width: 1.0rem;
+    height: 1.0rem;
+    margin-left: 0.075rem;
+}

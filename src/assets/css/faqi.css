@@ -1,0 +1,85 @@
+.mint-header {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #26a2ff;
+    box-sizing: border-box;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 14px;
+    height: 1.0rem;
+    line-height: 1;
+    padding: 0 0.25rem;
+    position: fixed;
+    z-index: 66666;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.headerBai {
+    width: 100%;
+    height: 1.025rem;
+}
+
+.list_box img {
+    border: 0;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.list_box {
+    box-sizing: border-box;
+    padding: 0.5rem 0.95rem 0 0.95rem;
+    width: 100%;
+}
+
+.list_box li {
+    width: 100%;
+    overflow: hidden;
+    background: white;
+    margin-bottom: 0.25rem;
+}
+
+.faqi_list {
+    position: relative;
+}
+
+.faqi_main_img {
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.faqi_list_del {
+    width: 0.875rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.faqi_title {
+    text-align: center;
+    font-size: 0.35rem;
+    color: #282828;
+    margin-top: 0.25rem;
+}
+
+.faqi_jin_e {
+    text-align: center;
+    font-size: 0.675rem;
+    color: #ff0000;
+    margin-top: 0.75rem;
+}
+
+.faqi_mu_biao {
+    text-align: center;
+    font-size: 0.35rem;
+    color: #282828;
+    margin: 0.25rem 0 0.75rem 0;
+}
+
+
+/*--------------------*/
